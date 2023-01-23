@@ -7,7 +7,7 @@ export const SOLANA_DEV = clusterApiUrl(WalletAdapterNetwork.Devnet);
 export const GENESYSGO = "https://ssc-dao.genesysgo.net";
 export const METAPLEX = "https://api.metaplex.solana.com";
 export const SERUM = "https://solana-api.projectserum.com";
-export const HELIUS = `https://rpc.helius.xyz/?api-key=${process.env.HELIUS_API_KEY}`;
+export const HELIUS = `https://rpc.helius.xyz/?api-key=eeaffa67-8356-42b8-b716-6529bacc049b`;
 
 // You can use any of the other enpoints here
 export const NETWORK = HELIUS;

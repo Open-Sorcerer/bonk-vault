@@ -14,7 +14,7 @@ export default async function handler(
 
   if (address && address.length > 0) {
     const items = await fetcher<NftResponse>(
-      `https://api.helius.xyz/v0/addresses/${address}/nfts?api-key=${process.env.HELIUS_API_KEY}&page-number=0`
+      `https://api.helius.xyz/v0/addresses/${address}/nfts?api-key=eeaffa67-8356-42b8-b716-6529bacc049b&page-number=0`
     );
 
     res.status(200).json(items.nfts);
